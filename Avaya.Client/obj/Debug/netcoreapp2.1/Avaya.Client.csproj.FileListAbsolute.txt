@@ -1,0 +1,11 @@
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\bin\Debug\netcoreapp2.1\Avaya.Client.deps.json
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\bin\Debug\netcoreapp2.1\Avaya.Client.runtimeconfig.json
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\bin\Debug\netcoreapp2.1\Avaya.Client.runtimeconfig.dev.json
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\bin\Debug\netcoreapp2.1\Avaya.Client.dll
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\bin\Debug\netcoreapp2.1\Avaya.Client.pdb
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.csproj.CoreCompileInputs.cache
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.AssemblyInfoInputs.cache
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.AssemblyInfo.cs
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.dll
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.pdb
+C:\Project\Avaya Web App\Demo\Avaya.Console\Avaya.Client\obj\Debug\netcoreapp2.1\Avaya.Client.csprojAssemblyReference.cache

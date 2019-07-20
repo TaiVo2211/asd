@@ -1,0 +1,9 @@
+C:\Project\Avaya.Console\Avaya.Model\bin\Debug\netcoreapp2.0\Avaya.Model.deps.json
+C:\Project\Avaya.Console\Avaya.Model\bin\Debug\netcoreapp2.0\Avaya.Model.dll
+C:\Project\Avaya.Console\Avaya.Model\bin\Debug\netcoreapp2.0\Avaya.Model.pdb
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.csprojAssemblyReference.cache
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.csproj.CoreCompileInputs.cache
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.AssemblyInfoInputs.cache
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.AssemblyInfo.cs
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.dll
+C:\Project\Avaya.Console\Avaya.Model\obj\Debug\netcoreapp2.0\Avaya.Model.pdb

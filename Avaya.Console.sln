@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avaya.WebApp", "Avaya.WebApp\Avaya.WebApp.csproj", "{ED3F6C9B-798A-44B1-9EDE-649FBA44D224}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.API", "Avaya.API\Avaya.API.csproj", "{B399AA58-3DC7-44FB-8EF7-3DD59097304B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Domain", "Avaya.Domain\Avaya.Domain.csproj", "{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avaya.Client", "Avaya.Client\Avaya.Client.csproj", "{52F91972-E074-46F7-9386-E1B92056B25D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Service", "Avaya.Service\Avaya.Service.csproj", "{391FE509-4BA1-4019-AAE2-1452FEAB787C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Core", "Avaya.Core\Avaya.Core.csproj", "{E1443C59-D733-4E22-80BA-6CAD0E98F868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avaya.Model", "Avaya.Model\Avaya.Model.csproj", "{C744B208-9298-430E-8B8A-6133883163C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED3F6C9B-798A-44B1-9EDE-649FBA44D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3F6C9B-798A-44B1-9EDE-649FBA44D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3F6C9B-798A-44B1-9EDE-649FBA44D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3F6C9B-798A-44B1-9EDE-649FBA44D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B399AA58-3DC7-44FB-8EF7-3DD59097304B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399AA58-3DC7-44FB-8EF7-3DD59097304B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399AA58-3DC7-44FB-8EF7-3DD59097304B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399AA58-3DC7-44FB-8EF7-3DD59097304B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F91972-E074-46F7-9386-E1B92056B25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F91972-E074-46F7-9386-E1B92056B25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F91972-E074-46F7-9386-E1B92056B25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F91972-E074-46F7-9386-E1B92056B25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1443C59-D733-4E22-80BA-6CAD0E98F868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1443C59-D733-4E22-80BA-6CAD0E98F868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1443C59-D733-4E22-80BA-6CAD0E98F868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1443C59-D733-4E22-80BA-6CAD0E98F868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C744B208-9298-430E-8B8A-6133883163C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C744B208-9298-430E-8B8A-6133883163C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C744B208-9298-430E-8B8A-6133883163C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C744B208-9298-430E-8B8A-6133883163C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2269D43B-19CE-46A7-AA7E-05F023F939E0}
+	EndGlobalSection
+EndGlobal
