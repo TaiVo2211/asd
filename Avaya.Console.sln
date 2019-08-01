@@ -9,13 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.API", "Avaya.API\Avay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Domain", "Avaya.Domain\Avaya.Domain.csproj", "{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avaya.Client", "Avaya.Client\Avaya.Client.csproj", "{52F91972-E074-46F7-9386-E1B92056B25D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Service", "Avaya.Service\Avaya.Service.csproj", "{391FE509-4BA1-4019-AAE2-1452FEAB787C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Core", "Avaya.Core\Avaya.Core.csproj", "{E1443C59-D733-4E22-80BA-6CAD0E98F868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avaya.Model", "Avaya.Model\Avaya.Model.csproj", "{C744B208-9298-430E-8B8A-6133883163C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaya.Model", "Avaya.Model\Avaya.Model.csproj", "{C744B208-9298-430E-8B8A-6133883163C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF535DF-5E8A-4966-B21B-C6397E8EAFB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52F91972-E074-46F7-9386-E1B92056B25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52F91972-E074-46F7-9386-E1B92056B25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52F91972-E074-46F7-9386-E1B92056B25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52F91972-E074-46F7-9386-E1B92056B25D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{391FE509-4BA1-4019-AAE2-1452FEAB787C}.Release|Any CPU.ActiveCfg = Release|Any CPU
