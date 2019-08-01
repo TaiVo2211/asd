@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Avaya.Domain.Models;
+using Avaya.Model;
 
 namespace Avaya.Service
 {
@@ -7,6 +8,9 @@ namespace Avaya.Service
     {
         public ServiceMapperProfile()
         {
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<ProductDetails, ProductDetailModel>();
+            });
         }
     }
 }
