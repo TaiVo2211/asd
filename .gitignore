@@ -19,3 +19,7 @@
 /Avaya.Domain/obj/Release/netcoreapp2.0
 /Avaya.Model/obj/Release/netcoreapp2.0
 /Avaya.Service/obj/Release/netcoreapp2.0
+/Avaya.Core/obj
+/Avaya.Domain/obj
+/Avaya.Model/obj
+/Avaya.Service/obj
