@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Web.Http.Cors;
 using Avaya.Core.Repositories;
 using Avaya.Domain.Models;
+using Avaya.Model;
 using Avaya.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +31,20 @@ namespace Avaya.API.Controllers
         {
             var listMenus = _menuService.GetAll();
             return Ok(listMenus);
+        }
+
+        [HttpGet("{query}")]
+        public IActionResult GetData(int query)
+        {
+            var listMenus = _menuService.Change(query);
+            return Ok(listMenus);
+        }
+
+        [HttpPost]
+        public IActionResult GetPost([FromBody] ProductDetailModel abc)
+        {
+            //var listMenus = _menuService.GetAll();
+            return Ok("asdasd");
         }
     }
 }
