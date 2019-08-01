@@ -1,6 +1,0 @@
-C:\Project\Avaya.Console\Avaya.Core\bin\Debug\netcoreapp2.1\Avaya.Core.deps.json
-C:\Project\Avaya.Console\Avaya.Core\bin\Debug\netcoreapp2.1\Avaya.Core.dll
-C:\Project\Avaya.Console\Avaya.Core\obj\Debug\netcoreapp2.1\Avaya.Core.csprojAssemblyReference.cache
-C:\Project\Avaya.Console\Avaya.Core\obj\Debug\netcoreapp2.1\Avaya.Core.csproj.CoreCompileInputs.cache
-C:\Project\Avaya.Console\Avaya.Core\obj\Debug\netcoreapp2.1\Avaya.Core.AssemblyInfoInputs.cache
-C:\Project\Avaya.Console\Avaya.Core\obj\Debug\netcoreapp2.1\Avaya.Core.AssemblyInfo.cs
