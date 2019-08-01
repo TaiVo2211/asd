@@ -5,3 +5,8 @@
 /.vs/config
 /.vs/Avaya.Console/v15/Server/sqlite3
 /.vs/Avaya.Console/v15
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
