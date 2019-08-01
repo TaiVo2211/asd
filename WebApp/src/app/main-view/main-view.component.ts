@@ -16,6 +16,7 @@ export class MainViewComponent implements OnInit {
   }
 
   text: number = 0;
+  texx: string = "";
 
   ngOnInit() {
   }
