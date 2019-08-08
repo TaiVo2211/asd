@@ -23,6 +23,7 @@ import { AlertModule } from 'ngx-alerts';
 import { PlanbarComponent } from './plan-bar/plan-bar.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { NewsViewComponent } from './news-view/news-view.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   {
@@ -46,6 +47,7 @@ export const environment = {
     PlanbarComponent,
     MainViewComponent,
     NewsViewComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,
