@@ -23,6 +23,10 @@ import { AlertModule } from 'ngx-alerts';
 import { PlanbarComponent } from './plan-bar/plan-bar.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { NewsViewComponent } from './news-view/news-view.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MoreTvNewsComponent } from './more-tv-news/more-tv-news.component';
+import { ArticleComponent } from './article/article.component';
 import { NewsSectionComponent } from './main-news/main-news.component';
 import { SidenewsSectionComponent } from './side-news/side-news.component';
 import { SidenewsHalfsizeComponent } from './side-news-half-size/side-news-half-size.component';
@@ -52,6 +56,10 @@ export const environment = {
     NewsSectionComponent,
     SidenewsSectionComponent,
     SidenewsHalfsizeComponent,
+    HeaderComponent,
+    FooterComponent,
+    ArticleComponent,
+    MoreTvNewsComponent,
   ],
   imports: [
     CommonModule,
