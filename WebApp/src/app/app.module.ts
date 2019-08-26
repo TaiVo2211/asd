@@ -23,6 +23,9 @@ import { AlertModule } from 'ngx-alerts';
 import { PlanbarComponent } from './plan-bar/plan-bar.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { NewsViewComponent } from './news-view/news-view.component';
+import { NewsSectionComponent } from './main-news/main-news.component';
+import { SidenewsSectionComponent } from './side-news/side-news.component';
+import { SidenewsHalfsizeComponent } from './side-news-half-size/side-news-half-size.component';
 
 const appRoutes: Routes = [
   {
@@ -46,6 +49,9 @@ export const environment = {
     PlanbarComponent,
     MainViewComponent,
     NewsViewComponent,
+    NewsSectionComponent,
+    SidenewsSectionComponent,
+    SidenewsHalfsizeComponent,
   ],
   imports: [
     CommonModule,
