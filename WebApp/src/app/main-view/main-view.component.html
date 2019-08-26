@@ -1,8 +1,30 @@
+<div class="news-section">
+  <div class="news-more-title"> MORE IN TV NEWS </div>
+  <div class="news-line"></div>
+</div>
 <div class="main-view">
-  <div class="news-detail">
-    
-  </div>
-  <div class="trending">
-    <app-news-view></app-news-view>
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="row" *ngFor="let item of listRightNews">
+        <div class="responsive">
+          <img [src]="item.imgUrl" (click)="onClick(item.link)">
+          <div class="desc">
+            <div class="title" (click)="onClick(item.link)">{{item.title}}</div>
+            <div class="author" (click)="onClickAuthor(item.authorUrl)">{{item.author}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="row" *ngFor="let item of listLeftNews">
+        <div class="responsive">
+          <img [src]="item.imgUrl" (click)="onClick(item.link)">
+          <div class="desc">
+            <div class="title" (click)="onClick(item.link)">{{item.title}}</div>
+            <div class="author" (click)="onClickAuthor(item.authorUrl)">{{item.author}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

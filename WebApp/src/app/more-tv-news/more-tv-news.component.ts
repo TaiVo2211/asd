@@ -1,17 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { SharedService } from '../services/shared.service';
-import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-main-view',
-  templateUrl: './main-view.component.html',
-  styleUrls: ['./main-view.component.scss']
+  selector: 'app-more-tv-news',
+  templateUrl: './more-tv-news.component.html',
+  styleUrls: ['./more-tv-news.component.scss']
 })
-export class MainViewComponent implements OnInit {
+export class MoreTvNewsComponent implements OnInit {
 
-
-  constructor(private router: Router) {
-  }
+  constructor() { }
 
   ngOnInit() {
     this.sliptNews();
@@ -24,6 +20,7 @@ export class MainViewComponent implements OnInit {
       link: "https://screenrant.com/bachelor-mike-johnson-consideration-next/",
       title: "Mike Johnson in Serious Consideration to Become The Next Bachelor",
       author: "BY JUSTIN FEDICH",
+      titleUrl: "https://screenrant.com/bachelor-mike-johnson-consideration-next/",
       authorUrl: "https://screenrant.com/author/jfedi/",
     },
     {
@@ -32,6 +29,7 @@ export class MainViewComponent implements OnInit {
       link: "https://screenrant.com/teen-choice-awards-ratings-all-time-low-second-year/",
       title: "Kris Jenner Attempts to Unite Her Family During Chic Cowgirl Bonding Trip",
       author: "BY BETHANY GUERRERO",
+      titleUrl: "https://screenrant.com/teen-choice-awards-ratings-all-time-low-second-year/",
       authorUrl: "https://screenrant.com/author/bguer/",
     },
     {
@@ -40,8 +38,8 @@ export class MainViewComponent implements OnInit {
       link: "https://screenrant.com/friends-tv-show-episodes-theaters-release/",
       title: "Friends TV Show Episodes Coming To Theaters This Fall",
       author: "BY ABDULLAH AL-GHAMDI",
+      titleUrl: "https://screenrant.com/friends-tv-show-episodes-theaters-release/",
       authorUrl: "https://screenrant.com/author/aalgh/",
-
     },
     {
       id: 3,
@@ -49,6 +47,7 @@ export class MainViewComponent implements OnInit {
       link: "https://screenrant.com/morning-show-trailer-jennifer-aniston-apple-tv-plus/",
       title: "Morning Show Trailer: Jennifer Aniston, Steve Carell Star In Apple TV+ Show",
       author: "BY ABDULLAH AL-GHAMDI",
+      titleUrl: "https://screenrant.com/morning-show-trailer-jennifer-aniston-apple-tv-plus/",
       authorUrl: "https://screenrant.com/author/aalgh/",
     },
   ]
@@ -69,15 +68,5 @@ export class MainViewComponent implements OnInit {
         this.listLeftNews.push(this.listNews[i]);
       }
     }
-  }
-
-  onClick(link: string)
-  { 
-    this.router.parseUrl(link);
-  }
-
-  onClickAuthor(link: string)
-  {
-    console.log(link);
   }
 }
