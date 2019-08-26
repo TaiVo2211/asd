@@ -26,6 +26,7 @@ import { NewsViewComponent } from './news-view/news-view.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MoreTvNewsComponent } from './more-tv-news/more-tv-news.component';
+import { ArticleComponent } from './article/article.component';
 
 const appRoutes: Routes = [
   {
@@ -51,6 +52,7 @@ export const environment = {
     NewsViewComponent,
     HeaderComponent,
     FooterComponent,
+    ArticleComponent,
     MoreTvNewsComponent,
   ],
   imports: [
