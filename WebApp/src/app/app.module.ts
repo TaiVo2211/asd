@@ -25,6 +25,7 @@ import { MainViewComponent } from './main-view/main-view.component';
 import { NewsViewComponent } from './news-view/news-view.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ArticleComponent } from './article/article.component';
 
 const appRoutes: Routes = [
   {
@@ -50,6 +51,7 @@ export const environment = {
     NewsViewComponent,
     HeaderComponent,
     FooterComponent,
+    ArticleComponent,
   ],
   imports: [
     CommonModule,

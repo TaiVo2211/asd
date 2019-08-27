@@ -9,40 +9,13 @@ import { MenuService } from '../services/menu.service';
 })
 export class NewsViewComponent implements OnInit {
 
-  list: any;
+ constructor()
+ {
 
-  listABC: any = [
-    {
-      name: "Lucifer",
-      age: 13,
-    }, {
-      name: "Tai",
-      age: 11,
-    }, {
-      name: "Phat",
-      age: 13,
-    }
-  ]
+ }
+ 
+ ngOnInit()
+ {
 
-  constructor(private sharedService: SharedService, private menuService: MenuService) {
-    this.sharedService.action.subscribe(result => {
-      this.getData(2);
-    })
-  }
-
-  text: string = "";
-
-  ngOnInit() {
-    this.getData(1);
-    console.log(this.listABC);
-  }
-
-  getData(query: number) {
-    this.menuService.GetData(query).subscribe(result => {
-      this.list = result;
-      this.list.forEach(element => {
-        element.ImgUrl = `http://localhost:59239/Images/${element.imgName}`
-      });
-    });
-  }
+ }
 }
