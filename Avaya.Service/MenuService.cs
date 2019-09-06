@@ -23,8 +23,9 @@ namespace Avaya.Service
 
         public List<Menu> GetAll()
         {
-            var list = _menuRepository.GetAll().OrderBy(x => x.DisplayOrder).ToList();
-            return list.ToList();
+            //var list = _menuRepository.GetAll().OrderBy(x => x.DisplayOrder).ToList();
+            //return list.ToList();
+            return null;
         }
 
         public List<ProductDetailModel> Change(int query)

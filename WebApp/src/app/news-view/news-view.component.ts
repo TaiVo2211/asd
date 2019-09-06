@@ -9,13 +9,9 @@ import { MenuService } from '../services/menu.service';
 })
 export class NewsViewComponent implements OnInit {
 
- constructor()
- {
+  constructor() {
+  }
 
- }
- 
- ngOnInit()
- {
-
- }
+  ngOnInit() {
+  }
 }

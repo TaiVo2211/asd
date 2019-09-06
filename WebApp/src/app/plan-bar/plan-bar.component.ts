@@ -21,20 +21,7 @@ export class PlanbarComponent implements OnInit {
 
 
   ngOnInit() {
-    this.menuService.GetAll().subscribe(result => {
-      this.listMenus = result;
-      this.listMenus.forEach(element => {
-        element.icon = `${element.icon} button-plan-bar fa-2x`;
-      })
-    });
   }
 
-  onClick(item)
-  {
-    switch(item.name)
-    {
-      case "Home": this.sharedService.change(true);  break;
-      case "Hamburger" : this.sharedService.change(true); break;
-    }
-  }
+
 }
