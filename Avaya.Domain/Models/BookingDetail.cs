@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Avaya.API.Models
+namespace Avaya.Domain.Models
 {
     public partial class BookingDetail
     {

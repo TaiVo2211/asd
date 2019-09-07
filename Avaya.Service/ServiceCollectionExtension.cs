@@ -9,7 +9,7 @@ namespace Avaya.Service
         public static void ConfigureService(this IServiceCollection services, IConfiguration configuration)
         {
             services.ConfigureDomain(configuration);
-            services.AddScoped<IMenuService, MenuService>();
+            //services.AddScoped<IMenuService, MenuService>();
         }
     }
 }
