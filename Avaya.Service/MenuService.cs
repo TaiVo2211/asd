@@ -32,7 +32,7 @@
 //        {
 //            var list = new List<ProductDetailModel>();
 //            if(query == 1)
-//            {
+//            {M
 //                list = _productDetailsRepository.GetAll().Where(x => x.Id > 6).MapTo<List<ProductDetailModel>>();
 //            }
 //            else
