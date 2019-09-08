@@ -30,6 +30,7 @@ import { ArticleComponent } from './article/article.component';
 import { NewsSectionComponent } from './main-news/main-news.component';
 import { SidenewsSectionComponent } from './side-news/side-news.component';
 import { SidenewsHalfsizeComponent } from './side-news-half-size/side-news-half-size.component';
+import { TimeMovieCinemaComponent } from './time-movie-cinema/time-movie-cinema.component';
 import { PaymentSectionComponent } from './payment-section/payment-section.component';
 import { OnlineMoviesCenterViewComponent } from './online-movies-center-view/online-movies-center-view.component';
 
@@ -62,6 +63,7 @@ export const environment = {
     FooterComponent,
     ArticleComponent,
     MoreTvNewsComponent,
+    TimeMovieCinemaComponent,
     PaymentSectionComponent,
     OnlineMoviesCenterViewComponent,
   ],
