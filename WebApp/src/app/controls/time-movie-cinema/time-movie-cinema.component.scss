@@ -1,3 +1,5 @@
+$margin-left: 140px;
+
 .content {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -16,15 +18,17 @@
     margin-bottom: 15px;
   }
   
-  .Date {
+  .form-control {
     margin-bottom: 15px;
+    width: 222px;
   }
+
   .input-date {
     width: 222px;
   }
   
-  .Search {
-    margin-left: 140px;
+  .search {
+    margin-left: $margin-left;
   }
   
   

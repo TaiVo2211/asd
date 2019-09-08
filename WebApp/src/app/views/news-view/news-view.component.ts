@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SharedService } from '../services/shared.service';
-import { MenuService } from '../services/menu.service';
+import { SharedService } from '../../core/services/shared.service';
+import { MenuService } from '../../core/services/menu.service';
 
 @Component({
   selector: 'app-news-view',
