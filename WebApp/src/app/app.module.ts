@@ -32,6 +32,9 @@ import { SidenewsSectionComponent } from './side-news/side-news.component';
 import { SidenewsHalfsizeComponent } from './side-news-half-size/side-news-half-size.component';
 import { BookingTicketComponent } from './booking-ticket/booking-ticket.component';
 import { MovieViewComponent } from './movie-view/movie-view.component';
+import { TimeMovieCinemaComponent } from './time-movie-cinema/time-movie-cinema.component';
+import { PaymentSectionComponent } from './payment-section/payment-section.component';
+import { OnlineMoviesCenterViewComponent } from './online-movies-center-view/online-movies-center-view.component';
 
 const appRoutes: Routes = [
   {
@@ -62,6 +65,9 @@ export const environment = {
     FooterComponent,
     ArticleComponent,
     MoreTvNewsComponent,
+    TimeMovieCinemaComponent,
+    PaymentSectionComponent,
+    OnlineMoviesCenterViewComponent,
     BookingTicketComponent,
     MovieViewComponent
   ],

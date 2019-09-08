@@ -1,0 +1,19 @@
+<div class="content">
+    <div class="Movies">
+      <select class="select-movies">
+        <option *ngFor="let item of listMovies">{{item.name}}</option>
+      </select>
+    </div>
+    <div class="Cinemas">
+      <select>
+        <option *ngFor="let item of listCinemas">{{item.name}}</option>
+      </select>
+    </div>
+    <div class="Date">
+      <input class="input-date" type="date">
+    </div>
+    <div class="Search">
+      <button>Tìm Kiếm</button>
+    </div>
+  </div>
+  

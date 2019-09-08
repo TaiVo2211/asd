@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Avaya.API.Models
+namespace Avaya.Domain.Models
 {
     public partial class MovieTheaterContext : DbContext
     {
