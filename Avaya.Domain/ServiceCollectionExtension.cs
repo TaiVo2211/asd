@@ -17,7 +17,7 @@ namespace Avaya.Domain
         public static void ConfigureDomain(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<MovieTheaterContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("SmartPhoneStore")));
+                options.UseSqlServer(configuration.GetConnectionString("MovieTheater")));
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IRepository<BookingDetail>, Repository<BookingDetail>>();

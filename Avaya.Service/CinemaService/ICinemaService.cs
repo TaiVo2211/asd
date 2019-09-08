@@ -5,8 +5,9 @@ using Avaya.Domain.Models;
 
 namespace Avaya.Service.CinemaService
 {
-    interface ICinemaService
+    public interface ICinemaService
     {
-        List<Cinema> GetAll(int date, Movie movie);
+        List<Cinema> GetAll();
+        //List<Cinema> GetAll(int date, Movie movie);
     }
 }
