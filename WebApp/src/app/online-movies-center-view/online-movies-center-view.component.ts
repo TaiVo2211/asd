@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OnlineMoviesCenterViewComponent implements OnInit {
 
-  testingimage:any='https://ziyemusic.com/wp-content/uploads/2019/01/Image-1210-6.jpg'
-  id1 : any = {
-    img : this.testingimage,
+  testingimage: any = 'https://ziyemusic.com/wp-content/uploads/2019/01/Image-1210-6.jpg'
+  id1: any = {
+    img: this.testingimage,
   }
-  listclip: any =[this.id1,this.id1,this.id1];
+  listclip: any = [this.id1, this.id1, this.id1];
 
   constructor() { }
 
