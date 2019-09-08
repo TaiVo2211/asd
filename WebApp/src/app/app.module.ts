@@ -30,6 +30,7 @@ import { ArticleComponent } from './article/article.component';
 import { NewsSectionComponent } from './main-news/main-news.component';
 import { SidenewsSectionComponent } from './side-news/side-news.component';
 import { SidenewsHalfsizeComponent } from './side-news-half-size/side-news-half-size.component';
+import { TimeMovieCinemaComponent } from './time-movie-cinema/time-movie-cinema.component';
 
 const appRoutes: Routes = [
   {
@@ -60,6 +61,7 @@ export const environment = {
     FooterComponent,
     ArticleComponent,
     MoreTvNewsComponent,
+    TimeMovieCinemaComponent,
   ],
   imports: [
     CommonModule,
