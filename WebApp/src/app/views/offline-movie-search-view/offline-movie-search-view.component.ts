@@ -18,9 +18,9 @@ export class OfflineMovieSearchViewComponent implements OnInit {
   outputData(event) {
     //Call API
     console.log(event);
-    // this.menuService.GetPost(event).subscribe(result=> {
+     this.menuService.GetPost(event).subscribe(result=> {
 
-    // });
+     });
 
     this.listMovies = [{
       id: 0,
