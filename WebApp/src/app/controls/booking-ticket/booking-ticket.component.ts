@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-booking-ticket',
@@ -7,12 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BookingTicketComponent implements OnInit {
 
+  @Output() itemsValue = new EventEmitter<any>();
+  
+
   listCombo: any = [
     {
       id: 0,
       imgUrl:"https://media.ifind.vn/data/images/media/3d4-1535013677796.jpg",
       comboname:"Bắp Nước",
-      price:"40.000vnđ"
+      price:"40.000"
     },
   ]
 
@@ -20,7 +23,7 @@ export class BookingTicketComponent implements OnInit {
     {
       id: 0,
       tickettype:"Vé 2D",
-      price:"80.000vnđ"
+      price:"80.000 "
     },
   ]
 
@@ -29,4 +32,12 @@ export class BookingTicketComponent implements OnInit {
   ngOnInit() {
   }
 
+  ItemsValueOutPut(){
+    var ticketInputValue = (<HTMLInputElement>document.getElementById("ticketValue")).value;
+    var comboInputValue = (<HTMLInputElement>document.getElementById("comboValue")).value;
+    var price = document.getElementById("comboValue").tabIndex;
+    console.log(price);
+    var totalValue= parseInt(ticketInputValue)*80000 + parseInt(comboInputValue)*40000 + " vnđ";
+    this.itemsValue.emit(totalValue);
+  }
 }
