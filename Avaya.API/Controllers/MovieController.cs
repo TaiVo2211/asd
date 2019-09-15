@@ -6,6 +6,7 @@ using System.Web.Http.Cors;
 using Avaya.Core.Repositories;
 using Avaya.Domain.Models;
 using Avaya.Model;
+using Avaya.Model.Movie;
 using Avaya.Service;
 using Avaya.Service.MovieService;
 using Microsoft.AspNetCore.Mvc;
@@ -39,6 +40,13 @@ namespace Avaya.API.Controllers
         {
             var listMovie = _movieService.GetData(query);
             return Ok(listMovie);
+        }
+
+        [HttpPost]
+        public IActionResult GetListMovies([FromBody]SearchMovieModel searchMovie)
+        {
+            var result = _movieService.GetListMovies(searchMovie);
+            return Ok(result);
         }
     }
 }

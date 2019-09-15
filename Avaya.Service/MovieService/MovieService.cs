@@ -5,6 +5,7 @@ using System.Text;
 using Avaya.Core.Extension;
 using Avaya.Core.Repositories;
 using Avaya.Domain.Models;
+using Avaya.Model.Movie;
 
 namespace Avaya.Service.MovieService
 {
@@ -26,9 +27,15 @@ namespace Avaya.Service.MovieService
 
         public List<Movie> GetData(string query)
         {
-            var list = new List<Movie>();
-            list = _movieRepository.GetAll().Where(x=>x.Name.Contains(query)).MapTo<List<Movie>>().ToList();
+            var list = _movieRepository.GetAll().Where(x => x.Name.Contains(query)).MapTo<List<Movie>>().ToList();
             return list;
+        }
+
+
+        public List<MovieModel> GetListMovies(SearchMovieModel searchMovie)
+        {
+            //TODO: Logic
+            return null;
         }
     }
 }
