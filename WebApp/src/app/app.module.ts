@@ -38,6 +38,8 @@ import { SharedModule } from './shared/shared.module';
 import { ViewModule } from './views/view.module';
 import { ControlModule } from './controls/control.module';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { MenuService } from './core/services/menu.service';
+import { ServiceModule } from './core/services/service.module';
 
 const appRoutes: Routes = [
   {
@@ -64,6 +66,7 @@ export const environment = {
     ArticleComponent,
   ],
   imports: [
+    ServiceModule,
     ControlModule,
     ViewModule,
     SharedModule,

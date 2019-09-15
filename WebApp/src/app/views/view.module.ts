@@ -7,6 +7,7 @@ import { SidenewsSectionComponent } from './side-news/side-news.component';
 import { PaymentSectionComponent } from '../controls/payment-section/payment-section.component';
 import { OfflineMovieSearchViewComponent } from './offline-movie-search-view/offline-movie-search-view.component';
 import { ControlModule } from '../controls/control.module';
+import { MenuService } from '../core/services/menu.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { ControlModule } from '../controls/control.module';
     NewsViewComponent,
     OnlineMoviesCenterViewComponent,
     SidenewsSectionComponent,
-    OfflineMovieSearchViewComponent
+    OfflineMovieSearchViewComponent,
   ],
   imports: [
     ControlModule,
