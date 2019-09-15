@@ -8,9 +8,8 @@
   <div class="combocorn-container" *ngFor="let item of listTicket">
     <div class="item4">{{item.tickettype}}</div>
     <div class="item5">{{item.price}}</div>   
-    <div class="item6"><input type="number" id='ticketValue' value="0" min="0" max="10" (change)="ItemsValueOutPut()"></div> 
-
-         
+    <div class="item6"><input type="number" id='ticketValue' 
+      value="0" min="0" max="10" (change)="ItemsValueOutPut(item)"></div> 
   </div>
 </div>
 
@@ -24,6 +23,7 @@
   <div class="combocorn-container" *ngFor="let item of listCombo">
     <div class="item4">{{item.comboname}}</div>
     <div class="item5">{{item.price}}</div>   
-    <div class="item6"><input type="number" id='comboValue' value="0" min="0" max="10"(change)="ItemsValueOutPut()"></div>      
+    <div class="item6"><input type="number" id='comboValue' 
+      value="0" min="0" max="10"(change)="ItemsValueOutPut(item)"></div>      
   </div>
 </div>

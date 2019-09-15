@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentViewComponent implements OnInit {
 
-  completePrice : any;
-  
+  completePrice: any;
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  ItemsValueOutPut(event){
-  this.completePrice= event;
+  ItemsValueOutPut(event) {
+    this.completePrice = event;
   }
 }

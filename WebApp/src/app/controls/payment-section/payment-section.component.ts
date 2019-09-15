@@ -7,13 +7,13 @@ import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 })
 export class PaymentSectionComponent implements OnInit {
 
- @Input() completePrice :any;
+  @Input() completePrice: number = 0;
 
-  img:any ='https://revengeofthefans.com/wp-content/uploads/2019/01/Breaking-Bad-RTF-e1548338096892.jpg';
-  moviename: any ='Cranky old man';
-  theater: any ='CGV ';
-  showtime:any ='09:00 | Thứ Hai,02/09/2019 '
-  seatnumber:any ='13F'
+  img: string = 'https://revengeofthefans.com/wp-content/uploads/2019/01/Breaking-Bad-RTF-e1548338096892.jpg';
+  moviename: any = 'Cranky old man';
+  theater: any = 'CGV ';
+  showtime: any = '09:00 | Thứ Hai,02/09/2019 ';
+  seatnumber: any = '13F';
   constructor() { }
 
   ngOnInit() {
