@@ -1,7 +1,26 @@
-<img class="news-image" [src]="movie.imgUrl">
+<div class="news-info-container" >
+  <img class="news-image" [src]="movie.imgUrl">
 
-<div class="Infor">
-  <div class="news-author">{{movie.name}} {{movie.time}} </div>
-  <div class="news-description">{{movie.decription}}</div>
-  <div class="news-author">{{movie.showtime}}</div>
+  <div class="Infor">
+      <dl class="info_spec" id="dSpec0">
+          <dt>Tên phim</dt>
+          <dd id="dVClass">{{movie.name}}</dd>
+          <dt>Thời lượng</dt>
+          <dd id="dReleaseDate">{{movie.time}}</dd>
+      </dl>
+
+      <dl class="info_spec" id="dSpec0">
+          <dt>Mô tả</dt>
+          <dd id="dVClass">{{movie.decription}}</dd>
+      </dl>
+
+      <dl class="info_spec space" id="dSpec0">
+          <a target="_blank">
+              <dd class="title">{{movie.showtime}}</dd>              
+          </a>
+      </dl>
+    <!-- <div class="news-author">{{movie.name}} {{movie.time}} </div>
+    <div class="news-description">{{movie.decription}}</div>
+    <div class="news-author">{{movie.showtime}}</div> -->
+  </div>
 </div>

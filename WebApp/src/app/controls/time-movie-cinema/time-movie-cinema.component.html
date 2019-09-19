@@ -9,12 +9,12 @@
   </div>
   <div class="Cinemas">
     <ng-select class="select-movies" [searchable]="false" [items]="listCinemas" bindLabel="name" bindValue="id"
-    (change)="onChangeCinemaName($event)" placeholder="Select movie name..."></ng-select>
+    (change)="onChangeCinemaName($event)" placeholder="Select cinemas name..."></ng-select>
   </div>
-  <input type="text" placeholder="Datepicker" class="form-control" [minDate]="minDate" bsDatepicker>
+  <input placeholder="Datepicker" class="form-control"  [minDate]="minDate" bsDatepicker (change)="onChangeDatepicker($event)">
   <!-- <input class="input-date" type="date"> -->
 
   <div class="search">
-    <button (click)="onClickSearch()">Tìm Kiếm</button>
+    <button type="button"  (click)="onClickSearch()">Tìm Kiếm</button>
   </div>
 </div>

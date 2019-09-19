@@ -38,6 +38,7 @@ import { SharedModule } from './shared/shared.module';
 import { ViewModule } from './views/view.module';
 import { ControlModule } from './controls/control.module';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { MenuService } from './core/services/menu.service';
 
 const appRoutes: Routes = [
   {
@@ -92,12 +93,13 @@ export const environment = {
   entryComponents: [
   ],
   providers: [
+    MenuService,
     {
       provide: PERFECT_SCROLLBAR_CONFIG,
       useValue: DEFAULT_PERFECT_SCROLLBAR_CONFIG
     }
   ],
- 
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

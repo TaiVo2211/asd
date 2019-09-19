@@ -13,17 +13,18 @@ export class TimeMovieCinemaComponent implements OnInit {
   searchItem: SearchModel;
   minDate: Date;
 
+
   listMovies: any = [
     { id: 1, name: 'NGÔI NHÀ BƯƠM BƯỚM' },
     { id: 2, name: 'BẠN HỌC CÕI ÂM' },
     { id: 3, name: 'ANH THẦY NGÔI SAO' },
     { id: 4, name: 'ANGRY BIRDS 2' },
   ];
-  listCinemas = [
+  listCinemas: any = [
     { id: 1, name: 'BHD Star Bitexco' },
     { id: 2, name: 'GLX - Nguyễn Du' },
-    { id: 1, name: 'BHD Star Vincom Thảo Điền' },
-    { id: 2, name: 'GLX - Tân Bình' },
+    { id: 3, name: 'BHD Star Vincom Thảo Điền' },
+    { id: 4, name: 'GLX - Tân Bình' },
   ];
 
   constructor() {
@@ -41,6 +42,11 @@ export class TimeMovieCinemaComponent implements OnInit {
   onChangeCinemaName(event)
   {
     this.searchItem.cinemaId = event.id;
+  }
+
+  onChangeDatepicker(event)
+  {
+    this.searchItem.date = event.id;
   }
 
   onClickSearch()
